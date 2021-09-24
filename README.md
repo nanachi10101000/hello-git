@@ -89,7 +89,7 @@ $git branch -m -master main 分支改為main
 ```
 
 <h1>分支指令</h1>
-```
+
 $git branch 檢視分支
 
 $	    XXX 建立XXX分支
