@@ -108,11 +108,11 @@ $ git switch main 切換
 ```
 
 <h1>github repo</h1>
-```
+
 $git remote add origin https://github.com/nanachi10101000/hello-git.git 建立github repo
 
 $git push -u origin main 推送程式碼 分支main
-```
+
 
 <p>錯誤發生頻率高且嚴重優先處理權高</p>
 
