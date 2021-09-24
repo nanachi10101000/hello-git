@@ -120,5 +120,45 @@ $git push -u origin main 推送程式碼 分支main
 
 -f -> 強制
 
+<hr>
 
-<br>
+<h1>NodeJS</h1>
+
+簡單來說就是在瀏覽器以外環境執行JS
+
+NodeJS暨不是程式語言，也不是框架
+
+LTS: long-term support 長期維護版
+- Current: 最新的、目前的 //平常自己測
+- Active LTS: 正在積極維護跟升級中的版本　//建議安裝
+- Maintenance LTS: 維護中的 LTS 直到生命週期結尾
+- EOL: end of life
+
+windows: https://github.com/coreybutler/nvm-windows/releases
+
+//git Bash要以管理員身分開啟
+
+```
+# 列出可以安裝的版本
+$ nvm ls-remote 14
+# windows版本
+$ nvm list available
+
+# 安裝最新的 LTS
+$ nvm install 14.17.6
+
+# 切換版本
+$ nvm use 14.17.6
+
+# 確認目前 node 的版本
+$ node -v
+
+# 列出你電腦裡 node 的版本
+$ nvm ls
+# windows 用 list
+$ nvm list
+
+# 設定預設版本
+$ nvm alias default 14.17.6
+```
+
